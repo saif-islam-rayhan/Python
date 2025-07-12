@@ -1,0 +1,6 @@
+file=open("data.txt","r+")
+file.write(" I have a pen\n")
+file.seek(0) 
+content=file.read()
+print(content)
+file.close()
